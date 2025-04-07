@@ -16,4 +16,4 @@
 ### Fixable by:
 
 1. Disabling directory listing
-2. Securing files that contains sensitive information
+2. Securing files that contain sensitive information
