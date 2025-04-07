@@ -25,3 +25,7 @@
 
 3. Do the necessary steps described in Flag's `Commentaire` on Flag's `countersign`
 4. Found!
+
+### Fixable by:  
+
+1. Properly sanitizing user input
