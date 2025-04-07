@@ -11,4 +11,4 @@
 
 ### Fixable by:  
 
-1. Adding proper validation to file extensions and mime types
+1. Properly validating file extensions and MIME types

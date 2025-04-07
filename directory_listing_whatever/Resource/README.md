@@ -1,6 +1,6 @@
 ### Where:
 
-`/whatever` and `/admin`
+`/robots.txt`, `/whatever` and `/admin`
 
 ### How:
 
