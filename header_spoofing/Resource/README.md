@@ -7,7 +7,12 @@
 1. Inspect page source in main page's footer
 2. See weird copyright link
 3. Visit it
-3. Inspect page source
-4. View source code comment
-5. Make request with `Referer: https://www.nsa.gov/` and `User-Agent: ft_bornToSec` headers
-6. Found!
+4. Inspect page source
+5. View source code comment
+6. Make request with `Referer: https://www.nsa.gov/` and `User-Agent: ft_bornToSec` headers
+7. Found!
+
+### Fixable by:
+
+1. Removing comments in HTML that contains private information
+2. Adding proper authorization to requests
