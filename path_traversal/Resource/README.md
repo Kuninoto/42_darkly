@@ -15,5 +15,5 @@
 ### Fixable by:  
 
 1. Sanitize routes / paths
-3. Configuring proper file system restrictions
-4. Configuring proper web server directory permissions
+2. Configuring proper file system restrictions
+3. Configuring proper web server directory permissions
