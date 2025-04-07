@@ -12,7 +12,7 @@
 6. Make request with `Referer: https://www.nsa.gov/` and `User-Agent: ft_bornToSec` headers
 7. Found!
 
-### Fixable by:
+### Fixable by:  
 
 1. Removing comments in HTML that contains private information
 2. Adding proper authorization to requests
