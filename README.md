@@ -3,13 +3,13 @@
 #### Done in collaboration with  
 [Nuno Machado](https://github.com/nunom4chado)  
 
-## Description
+## Description  
 
-Capture the flag in a vulnerable website. Finding common web vulnerabilities.
+Capture the flag(s) in a purposefully vulnerable website.  
 
-### License
+### License  
 
-This project is licensed under the GPL3 license - see the [LICENSE](LICENSE) file for more details.
+This project is licensed under the GPL3 license - see the [LICENSE](LICENSE) file for more details.  
 
 ---
 Made by Nuno Carvalho (Kuninoto) | nnuno-ca@student.42porto.com  
