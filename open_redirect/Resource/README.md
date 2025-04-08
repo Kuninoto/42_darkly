@@ -11,8 +11,4 @@
 
 ### Fixable by:  
 
-1. Validating if the destination site is the supposed one / whitelisted 
-
-OR
-
-1. If the redirect doesn't need to be dynamic, simply have it as a direct link on the page 
+1. Validating if the destination site is the supposed one / whitelisted OR if the redirect doesn't need to be dynamic, simply have it as a direct link on the page

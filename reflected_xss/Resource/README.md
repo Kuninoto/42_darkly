@@ -6,14 +6,14 @@
 
 1. Randomly click on NSA 3rd image on the home page
 2. Found `media` page
-2. Tried to change `src` parameter
-3. Noticed that the page displays the "Wrong Answer" GIF
-4. Open page source
-5. Noticed `<object>` tag
-6. Noticed that changing `src` parameter changes `<object>`'s `data` attribute
-7. Try to load HTML thru `src`
-8. Send `<script>alert(1)</script>` payload base64 encoded `data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==`
-9. Found!
+3. Tried to change `src` parameter
+4. Noticed that the page displays the "Wrong Answer" GIF
+5. Open page source
+6. Noticed `<object>` tag
+7. Noticed that changing `src` parameter changes `<object>`'s `data` attribute
+8. Try to load HTML thru `src`
+9. Send `<script>alert(1)</script>` payload base64 encoded `data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==`
+10. Found!
 
 ### Fixable by:  
 
