@@ -14,6 +14,7 @@ RESET = "\033[0m"
 def is_valid_ip(ip: str) -> bool:
     """
     Checks if a string has a valid IP address representation.
+
     Args:
         ip (str): String, supposed to contain an IP address, to validate
     
@@ -30,7 +31,7 @@ def is_valid_ip(ip: str) -> bool:
 def get_wordlist(path: str) -> list[str] | None:
     """
     Load a wordlist from a file.
-    
+
     Args:
         path (str): Path to the wordlist file
         

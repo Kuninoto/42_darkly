@@ -28,6 +28,7 @@ KNOWN_PHRASES = [
 def is_valid_ip(ip: str) -> bool:
     """
     Checks if a string has a valid IP address representation.
+
     Args:
         ip (str): String, supposed to contain an IP address, to validate
     
