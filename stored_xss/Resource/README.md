@@ -4,8 +4,8 @@
 
 ### How:  
 
-1. Change `name` field's `maxlength`
-2. Send `<img src="x" onerror="alert(document.cookies);">` on name
+1. Change `name` field's `maxlength` to a very big number
+2. Send `<img src="x" onerror="alert(document.cookie);">` on name
 3. Found!
 
 ### Fixable by:  

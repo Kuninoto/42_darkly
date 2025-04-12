@@ -15,4 +15,4 @@
 ### Fixable by:  
 
 1. Removing comments in HTML that contains private information
-2. Adding proper authorization to requests
+2. Adding proper authorization to requests (and also don't have special combinations that would allow dev-like special access)

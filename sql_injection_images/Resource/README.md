@@ -8,7 +8,7 @@
 2. Tried to inject SQL in different manners until we've tried a `UNION` attack
 
     ```SQL
-    1 UNION SELECT table_name, column_name FROM information_schema.columns
+    1 OR 1=1 UNION SELECT table_name, column_name FROM information_schema.columns
     ```
 
     ```SQL

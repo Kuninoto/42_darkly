@@ -46,6 +46,7 @@ def walk_dir(dir_url: str) -> None:
     """
     Walks a directory in a directory listing page, walking recursively when finding
     links for more directories.
+
     Args:
         dir_url (str): URL of the directory to walk
     """
