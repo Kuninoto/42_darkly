@@ -4,7 +4,7 @@
 
 ### How:  
 
-1. Found `searchimg` page by clicking on "Search Image" button on the home page
+1. Found `searchimg` page by clicking on the "Search Image" button on the home page
 2. Tried to inject SQL in different manners until we've tried a `UNION` attack
 
     ```SQL
@@ -21,4 +21,4 @@
 
 ### Fixable by:  
 
-1. Properly sanitizing user input
+1. Properly sanitizing user input, and never interpolating them directly in queries

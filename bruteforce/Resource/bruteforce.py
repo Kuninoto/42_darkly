@@ -30,7 +30,7 @@ def is_valid_ip(ip: str) -> bool:
 
 def get_wordlist(path: str) -> list[str] | None:
     """
-    Load a wordlist from a file.
+    Load wordlist from the file pointed to by `path`.
 
     Args:
         path (str): Path to the wordlist file
@@ -38,10 +38,6 @@ def get_wordlist(path: str) -> list[str] | None:
     Returns:
         list[str] | None: List of words if successful, `None` if failed
     """
-
-    if not os.path.exists(path):
-        print(f"{RED}[x]{RESET} Wordlist file {path} doesn't exist", file=sys.stderr)
-        return None
 
     try:
         with open(path, 'r', encoding='latin-1') as f:
@@ -61,8 +57,8 @@ def main():
     if len(target_ip) == 0 or not is_valid_ip(target_ip):
         print(f"{RED}[x]{RESET} Invalid target IP", file=sys.stderr)
         sys.exit(1)
-    
-    if len(sys.argv[2]) == 0:
+
+    if len(sys.argv[2]) == 0 or not os.path.exists(sys.argv[2]):
         print(f"{RED}[x]{RESET} Invalid wordlist file path", file=sys.stderr)
         sys.exit(1)
 

@@ -14,3 +14,4 @@
 1. Having a stronger password:
     - Bigger, to prevent bruteforcing;
     - Not a word or phrase, to prevent dictionary attacks.
+2. Rate limit requests

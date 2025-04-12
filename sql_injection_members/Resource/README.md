@@ -28,4 +28,4 @@
 
 ### Fixable by:  
 
-1. Properly sanitizing user input
+1. Properly sanitizing user input, and never interpolating them directly in queries
