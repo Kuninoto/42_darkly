@@ -5,7 +5,7 @@
 
 ## Description  
 
-Capture the flag(s) in a purposefully vulnerable website.  
+Capture the flag(s) in a purposefully vulnerable website. Learn about common web vulnerabilities and the [OWASP](https://owasp.org/) project.  
 
 ### License  
 
