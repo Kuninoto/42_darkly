@@ -1,14 +1,14 @@
-### Where:  
+### Where  
 
 `/?page=upload`
 
-### How:  
+### How  
 
-1. Upload a `.php` file containing any code
+1. Upload any file that is not a `.jpeg`  
 2. Intercept the form submission request with [BurpSuite](https://portswigger.net/burp)
-3. Change `Content-Type` to `image/jpeg`
+3. Change the uploaded file's `Content-Type` to `image/jpeg`
 4. Found!
 
-### Fixable by:  
+### Fixable by  
 
 1. Properly validating file extensions and MIME types

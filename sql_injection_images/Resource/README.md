@@ -1,8 +1,8 @@
-### Where:  
+### Where  
 
 `/?page=searchimg`
 
-### How:  
+### How  
 
 1. Found `searchimg` page by clicking on the "Search Image" button on the home page
 2. Tried to inject SQL in different manners until we've tried a `UNION` attack
@@ -19,6 +19,6 @@
 4. We picked up the `<hash>`, and did has the comment said
 5. Found!
 
-### Fixable by:  
+### Fixable by  
 
 1. Properly sanitizing user input, and never interpolating them directly in queries

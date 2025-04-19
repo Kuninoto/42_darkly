@@ -1,10 +1,10 @@
-### Where:  
+### Where  
 
-`/?page=media`
+`/` and `/?page=media`
 
-### How:  
+### How  
 
-1. Randomly click on NSA 3rd image on the home page
+1. Noticed that the 3rd NSA image on the home page is the only clickable one
 2. Found `media` page
 3. Tried to change `src` parameter
 4. Noticed that the page displays the "Wrong Answer" GIF
@@ -15,7 +15,7 @@
 9. Send `<script>alert(1)</script>` payload base64 encoded `data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==`
 10. Found!
 
-### Fixable by:  
+### Fixable by  
 
 1. Not having the `src` be the `<object>`'s `data` attribute OR have a whitelist of values and validate
 2. Use the [Content-Security-Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP) header

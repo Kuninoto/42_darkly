@@ -1,8 +1,8 @@
-### Where:  
+### Where  
 
 `/?page=member`
 
-### How:  
+### How  
 
 1. Found the `member` page by clicking on the "Members" button on the home page
 2. Check the network tab
@@ -12,7 +12,7 @@
 6. Send a request again
 7. Found!
 
-### Fixable by:  
+### Fixable by  
 
 1. Not storing privileges in cookies at all
 2. Using server-side sessions to track user authentication

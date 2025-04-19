@@ -1,8 +1,8 @@
-### Where:  
+### Where  
 
 `/?page=member`
 
-### How:  
+### How  
 
 1. Found `member` page by clicking on "Members" button on the home page
 2. Tried to inject SQL in different manners until we've tried a `UNION` attack
@@ -26,6 +26,6 @@
 3. Do the necessary steps described in Flag's `Commentaire` on Flag's `countersign`
 4. Found!
 
-### Fixable by:  
+### Fixable by  
 
 1. Properly sanitizing user input, and never interpolating them directly in queries
